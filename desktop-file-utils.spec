@@ -1,11 +1,11 @@
 Summary:	A couple of command line utilities for working with desktop entries
 Name:		desktop-file-utils
-Version:	0.18
-Release:	4
+Version:	0.21
+Release:	1
 License:	GPL
 Group:		Applications
-Source0:	http://freedesktop.org/software/desktop-file-utils/releases/%{name}-%{version}.tar.bz2
-# Source0-md5:	d966b743eb394650f98d5dd56b9aece1
+Source0:	http://freedesktop.org/software/desktop-file-utils/releases/%{name}-%{version}.tar.xz
+# Source0-md5:	fda5c312c9fb3b8d818fb54f2c34db82
 URL:		http://www.freedesktop.org/wiki/Software_2fdesktop_2dfile_2dutils
 BuildRequires:	autoconf
 BuildRequires:	automake
