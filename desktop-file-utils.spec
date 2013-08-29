@@ -1,11 +1,11 @@
 Summary:	A couple of command line utilities for working with desktop entries
 Name:		desktop-file-utils
-Version:	0.21
+Version:	0.22
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://freedesktop.org/software/desktop-file-utils/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	fda5c312c9fb3b8d818fb54f2c34db82
+# Source0-md5:	c6b9f9aac1ea143091178c23437e6cd0
 URL:		http://www.freedesktop.org/wiki/Software_2fdesktop_2dfile_2dutils
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -45,6 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
+%{_mandir}/man1/desktop-file-edit.1*
 %{_mandir}/man1/desktop-file-install.1*
 %{_mandir}/man1/desktop-file-validate.1*
 %{_mandir}/man1/update-desktop-database.1*
