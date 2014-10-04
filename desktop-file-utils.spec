@@ -1,7 +1,7 @@
 Summary:	A couple of command line utilities for working with desktop entries
 Name:		desktop-file-utils
 Version:	0.22
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://freedesktop.org/software/desktop-file-utils/releases/%{name}-%{version}.tar.xz
